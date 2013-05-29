@@ -1,0 +1,13 @@
+{
+  "name": "node-component-horde",
+  "description": "grunt-horde configuration package for projects seeded from gitemplate-node-component",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codeactual/node-component-grunt.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.5.4"
+  }
+}

@@ -1,0 +1,22 @@
+module.exports = function(grunt) {
+  'use strict';
+
+  return {
+    options: {
+      failOnError: true
+    },
+    build: {
+      command: 'component install --dev && component build --standalone <%= instanceName %> --name <%= projName %> --out dist --dev'
+    },
+    dist: {
+      command: 'component build --standalone <%= instanceName %> --name <%= projName %> --out dist'
+    },
+    test_lib: {
+      options: this.get('mochaShelljsOpt'),
+      command: 'mocha --colors --recursive --reporter spec test/lib'
+    },
+    dox_lib: {
+      command: 'apidox --input lib/<%= projName %>/index.js --output docs/<%= klassName %>.md'
+    }
+  };
+};

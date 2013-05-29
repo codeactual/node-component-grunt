@@ -1,7 +1,7 @@
 module.exports = function() {
   'use strict';
 
-  var distFile = 'dist/' + this.get('projName');
+  var distFile = 'dist/' + this.learn('projName');
   var distFiles = {};
   distFiles[distFile] = distFile;
 

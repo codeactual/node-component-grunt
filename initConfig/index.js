@@ -1,5 +1,5 @@
 module.exports = function() {
   'use strict';
 
-  this.set('mochaShelljsOpt', {stdout: true, stderr: false});
+  this.demand('mochaShelljsOpt', {stdout: true, stderr: false});
 };

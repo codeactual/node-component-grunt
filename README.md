@@ -1,4 +1,4 @@
-# grunt-horde-node-compoennt
+# node-component-grunt
 
 grunt-horde configuration package for projects seeded from gitemplate-node-component.
 

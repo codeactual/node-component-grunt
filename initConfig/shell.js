@@ -12,7 +12,7 @@ module.exports = function(grunt) {
       command: 'component build --standalone <%= instanceName %> --name <%= projName %> --out dist'
     },
     test_lib: {
-      options: this.learn('mochaShelljsOpt'),
+      options: this.learn('initConfig.mochaShelljsOpt'),
       command: 'mocha --colors --recursive --reporter spec test/lib'
     },
     dox_lib: {

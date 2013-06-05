@@ -9,7 +9,7 @@ module.exports = function() {
     },
     grunt: {
       files: {
-        src: ['Gruntfile.js', 'config/**/*.js']
+        src: ['Gruntfile.js'],
       }
     },
     tests: {

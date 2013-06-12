@@ -1,6 +1,7 @@
 {
   "name": "node-component-grunt",
   "description": "grunt-horde configuration package for projects seeded from gitemplate-node-component",
+  "private": true,
   "version": "0.1.0",
   "repository": {
     "type": "git",

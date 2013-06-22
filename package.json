@@ -11,5 +11,8 @@
     "grunt": "~0.4.1",
     "grunt-contrib-jshint": "~0.5.4"
   },
-  "author": "David Smith <codeactual@gmail.com>"
+  "author": "David Smith <codeactual@gmail.com>",
+  "devdir-ci": {
+    "version": 1
+  }
 }

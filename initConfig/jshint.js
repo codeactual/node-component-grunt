@@ -3,6 +3,9 @@ module.exports = function() {
 
   return {
     src: {
+      options: {
+        node: true
+      },
       files: {
         src: ['index.js', 'lib/**/*.js']
       }
@@ -14,7 +17,8 @@ module.exports = function() {
     },
     tests: {
       options: {
-        expr: true
+        expr: true,
+        node: true
       },
       files: {
         src: ['test/**/*.js']

@@ -4,7 +4,8 @@ module.exports = function(grunt) {
   return {
     default: [['jshint']],
     dox: [['shell:dox_lib']],
-    build: [['default', 'shell:build']],
+    build: [['default', 'shell:dist']],
+    install: [['shell:install']],
     dist: [['default', 'shell:dist', 'uglify:dist', 'dox']],
     test: [['build', 'shell:test_lib']]
   };

@@ -5,11 +5,11 @@ module.exports = function(grunt) {
     options: {
       failOnError: true
     },
-    build: {
-      command: 'component install --dev && component build --standalone <%= instanceName %> --name <%= projName %> --out dist --dev'
+    install: {
+      command: 'component install'
     },
     dist: {
-      command: 'component build --standalone <%= instanceName %> --name <%= projName %> --out dist'
+      command: 'component build --umd --name <%= projName %> --out dist'
     },
     test_lib: {
       options: this.learn('initConfig.mochaShelljsOpt'),

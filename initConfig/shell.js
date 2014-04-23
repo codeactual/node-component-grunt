@@ -13,7 +13,7 @@ module.exports = function(grunt) {
     },
     test_lib: {
       options: this.learn('initConfig.mochaShelljsOpt'),
-      command: 'mocha --colors --recursive --reporter spec test/lib'
+      command: 'mocha --harmony --colors --recursive --reporter spec test/lib'
     },
     dox_lib: {
       command: 'apidox --input lib/<%= projName %>/index.js --output docs/<%= klassName %>.md'

@@ -1,11 +1,14 @@
 module.exports = function() {
   'use strict';
 
+  var defOptions = {
+    node: true,
+    esnext: true
+  };
+
   return {
     src: {
-      options: {
-        node: true
-      },
+      options: defOptions,
       files: {
         src: ['index.js', 'lib/**/*.js']
       }
@@ -16,10 +19,7 @@ module.exports = function() {
       }
     },
     tests: {
-      options: {
-        expr: true,
-        node: true
-      },
+      options: defOptions,
       files: {
         src: ['test/**/*.js']
       }

@@ -19,7 +19,7 @@ module.exports = function() {
       }
     },
     tests: {
-      options: defOptions,
+      options: this.assimilate(defOptions, {expr: true}),
       files: {
         src: ['test/**/*.js']
       }

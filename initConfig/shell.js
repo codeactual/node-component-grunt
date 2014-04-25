@@ -9,7 +9,7 @@ module.exports = function(grunt) {
       command: 'component install'
     },
     dist: {
-      command: 'component build --umd --name <%= projName %> --out dist'
+      command: 'component build --standalone <%= instanceName %> --name <%= projName %> --out dist'
     },
     test_lib: {
       options: this.learn('initConfig.mochaShelljsOpt'),

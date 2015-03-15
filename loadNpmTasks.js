@@ -2,7 +2,7 @@ module.exports = function(grunt) {
   'use strict';
 
   return {
-    'grunt-contrib-jshint': true,
+    'grunt-eslint': true,
     'grunt-contrib-uglify': true,
     'grunt-shell': true
   };

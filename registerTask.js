@@ -1,8 +1,8 @@
-module.exports = function(grunt) {
+module.exports = function() {
   'use strict';
 
   return {
-    default: [['jshint']],
+    default: [['eslint']],
     dox: [['shell:dox_lib']],
     build: [['default', 'shell:dist']],
     install: [['shell:install']],

@@ -14,12 +14,6 @@ module.exports = function(grunt) {
     options: {
       failOnError: true
     },
-    install: {
-      command: 'component install'
-    },
-    dist: {
-      command: 'component build --standalone <%= instanceName %> --name <%= projName %> --out dist'
-    },
     test_lib: {
       options: this.learn('initConfig.mochaShelljsOpt'),
       command: testLibCmd

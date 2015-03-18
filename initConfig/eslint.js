@@ -25,6 +25,7 @@ module.exports = function exports() {
       'no-use-before-define': ['nofunc'],
       'no-var': 1,
       'no-void': 1,
+      'no-underscore-dangle': 0,
       'no-warning-comments': 1,
       'quotes': [2, 'single', 'avoid-escape'],
       'radix': 1,

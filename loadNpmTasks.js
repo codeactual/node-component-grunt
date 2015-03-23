@@ -1,9 +1,8 @@
-module.exports = function(grunt) {
+module.exports = function exports() {
   'use strict';
 
   return {
     'grunt-eslint': true,
-    'grunt-contrib-uglify': true,
     'grunt-shell': true
   };
 };

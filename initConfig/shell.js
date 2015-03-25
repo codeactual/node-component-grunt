@@ -1,7 +1,7 @@
 module.exports = function exports() {
   'use strict';
 
-  const testLibCmd = 'mocha --colors --recursive --reporter spec test/lib';
+  const testLibCmd = './node_modules/.bin/mocha --colors --recursive --reporter spec test/lib';
 
   return {
     options: {

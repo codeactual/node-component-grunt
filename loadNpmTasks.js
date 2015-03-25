@@ -3,6 +3,7 @@ module.exports = function exports() {
 
   return {
     'grunt-eslint': true,
+    'grunt-jsonlint': true,
     'grunt-shell': true
   };
 };

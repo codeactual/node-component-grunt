@@ -9,7 +9,8 @@
   },
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-eslint": "^8.0.0"
+    "grunt-eslint": "^8.0.0",
+    "grunt-jsonlint": "^1.0.4"
   },
   "author": "David Smith <codeactual@gmail.com>",
   "devdir-ci": {

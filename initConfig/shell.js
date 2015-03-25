@@ -1,7 +1,7 @@
-module.exports = function(grunt) {
+module.exports = function exports() {
   'use strict';
 
-  var testLibCmd = 'mocha --colors --recursive --reporter spec test/lib';
+  const testLibCmd = 'mocha --colors --recursive --reporter spec test/lib';
 
   return {
     options: {
@@ -12,7 +12,7 @@ module.exports = function(grunt) {
       command: testLibCmd
     },
     dox_lib: {
-      command: 'apidox --input lib/<%= projName %>/index.js --output docs/<%= klassName %>.md'
+      command: './node_modules/.bin/apidox --input lib/<%= projName %>/index.js --output docs/<%= klassName %>.md'
     }
   };
 };

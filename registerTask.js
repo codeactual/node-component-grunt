@@ -4,6 +4,6 @@ module.exports = function exports() {
   return {
     default: [['eslint']],
     dox: [['shell:dox_lib']],
-    test: [['build', 'shell:test_lib']]
+    test: [['shell:test_lib']]
   };
 };

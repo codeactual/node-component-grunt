@@ -2,7 +2,7 @@
   "name": "node-component-grunt",
   "description": "grunt-horde configuration package for projects seeded from gitemplate-node-component",
   "private": true,
-  "version": "0.2.2",
+  "version": "0.2.3",
   "repository": {
     "type": "git",
     "url": "https://github.com/codeactual/node-component-grunt.git"
